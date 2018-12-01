@@ -1,1 +1,14 @@
-/* Acá va tu código */
+body {
+    font-family: 'Roboto', sans-serif;    
+    background:#4900c5;
+    color: #ffffff;
+}
+h1 {
+    font-size: 40px;
+}
+h2 {
+    font-size: 15px;
+}
+p{
+    font-size: 20px;
+}
