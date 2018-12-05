@@ -28,22 +28,22 @@ window.cipher = {
 
   decode: (mensaje, offset) => {
     let mensaje_decodificado = "";
-    let offset_char = offset % 26;
-    let offset_num = offset % 10;
+    let offset_char = offset;
+    let offset_num = offset;
 
     for (let i = 0; i < mensaje.length; i++) {
       let ascii_letra_mensaje = mensaje.charCodeAt(i);
       if (ascii_letra_mensaje >= 65 && ascii_letra_mensaje <= 90) {
 
-        ascii_letra_mensaje = ((ascii_letra_mensaje - 90 - offset_char) % 26) + 90;
+        ascii_letra_mensaje = ((ascii_letra_mensaje - 90 - offset_char + 26) % 26) + 90;
       }
       if (ascii_letra_mensaje >= 97 && ascii_letra_mensaje <= 122) {
 
-        ascii_letra_mensaje = ((ascii_letra_mensaje - 97 - offset_char) % 26) + 97;
+        ascii_letra_mensaje = ((ascii_letra_mensaje - 97 - offset_char + 26) % 26) + 97;
       }
       if (ascii_letra_mensaje >= 48 && ascii_letra_mensaje <= 57) {
 
-        ascii_letra_mensaje = ((ascii_letra_mensaje - 57 - offset_num ) % 10) + 57;
+        ascii_letra_mensaje = ((ascii_letra_mensaje - 57 - offset_num + 10) % 10) + 57;
       }
 
 
