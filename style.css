@@ -37,9 +37,10 @@ form{
     text-align: center;
 }
 #resultado{
-    border: solid #F8DB00; 
+    /*border: solid #F8DB00; */
     background: white;
     color: black;
+
 
 }
 #mensaje{
