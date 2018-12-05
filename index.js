@@ -7,9 +7,8 @@ window.onload = () => {
         evento.preventDefault();
         let entrada = box_mensaje.value;
         let offset = parseInt(box_offset.value);
-
-        console.log(cipher.encode(entrada, offset));
-
+        let result= window.cipher.encode(entrada, offset);
+        document.getElementById("resultado").innerHTML = result;
     });
 
     document.getElementById('decodificar').addEventListener('click', (evento) => {
@@ -18,8 +17,8 @@ window.onload = () => {
         let entrada = box_mensaje.value;
         let offset = parseInt(box_offset.value);
 
-        console.log(cipher.decode(entrada, offset));
-
+        let result= window.cipher.decode(entrada, offset);
+        document.getElementById("resultado").innerHTML = result;
 
     });
 }
