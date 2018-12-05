@@ -5,10 +5,45 @@ body {
 }
 h1 {
     font-size: 40px;
+    text-align: center;
 }
-h2 {
+h3 {
     font-size: 15px;
+    color: #232323;
+    text-align: center;
+    font-family: 'Satisfy', cursive;
+    background-color: #f8db00;
+    border: 1px solid black;
 }
-p{
+.parrafo{
     font-size: 20px;
+    text-align: center;
+}
+img{
+    width:250px;
+    height:150px;
+    display:block;
+    margin:auto;
+}
+hr{
+    border:2px solid #F8DB00;
+
+}
+.btn{
+    border: 3px solid #F8DB00;
+    margin: auto;
+}
+form{
+    text-align: center;
+}
+#resultado{
+    border: solid #F8DB00; 
+    background: white;
+    color: black;
+
+}
+#mensaje{
+border: #232323;
+background: white;
+
 }
