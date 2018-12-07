@@ -1,19 +1,28 @@
 body {
-    font-family: 'Roboto', sans-serif;    
-    background:#4900c5;
-    color: #ffffff;
+    font-family: 'Noto Serif', serif;
+    background-image: url(../src/img/Background-Blue-Light.jpg);
+    color: white;
+
 }
 h1 {
+    color: white;
     font-size: 40px;
     text-align: center;
+}h2{
+    font-size: 18px;
+    text-align: center;
+    color: white;
 }
+
 h3 {
     font-size: 15px;
-    color: #232323;
+    color: #ffffff;
     text-align: center;
     font-family: 'Satisfy', cursive;
-    background-color: #f8db00;
+    background-color: #f5002d;
     border: 1px solid black;
+ 
+
 }
 .parrafo{
     font-size: 20px;
@@ -26,12 +35,14 @@ img{
     margin:auto;
 }
 hr{
-    border:2px solid #F8DB00;
+    border:2px solid #f5002d;
 
 }
 .btn{
-    border: 3px solid #F8DB00;
-    margin: auto;
+    border: 3px solid #f5002d;
+    background: #f5002d;
+    color: #ffffff;
+    border-radius: 10px;
 }
 form{
     text-align: center;
@@ -40,11 +51,19 @@ form{
     /*border: solid #F8DB00; */
     background: white;
     color: black;
-
-
+    width: 50%;
+    margin-left: 25%;
 }
 #mensaje{
 border: #232323;
-background: white;
+width: 50%;
+border-radius: 10px;
+color: #ffffff;
+font-size: 18px;
+}
 
+#desplazamientos{
+    border-radius: 5px;
+    background-color: white;
+    font-size: 18px;
 }
