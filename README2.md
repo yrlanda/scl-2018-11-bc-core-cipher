@@ -1,3 +1,11 @@
+CÓDIGO DE MAXIMA SEGURIDAD
+
+Este codificador es un modelo del Cifrado Cesar y esta creado para ser manipulado por las máximas autoridades del País y el Consejo de Seguridad Nacional de Chile que esten a cargo de la defensa terreste, aérea y maritima del mismo, con el fin de poder tener una comunicación completamente confidencial, en los temas de Seguridad Nacional y proteción del país.
+
+La necesidad de uso de este portal surge luego de un consenso entre los cuerpos de seguridad, el Consejo de Seguridad y la máxima autoridad del país los cuales requerian de una herramienta que les pemitiera sostener una comunicacion totalmente confidencial apegados a los códigos de eticas y privacidad entre si.
+
+En 
+
 # Cifrado César
 
 Cifrar significa codificar. El [cifrado César](https://en.wikipedia.org/wiki/Caesar_cipher) es uno de los primeros métodos de cifrado conocidos. El emperador romano Julio César lo usaba para enviar órdenes secretas a sus generales en los campos de batalla.

@@ -4,9 +4,7 @@
 <head>
   <meta charset="utf-8">
   <title>Caesar Cipher</title>
-  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Satisfy" rel="stylesheet">
-
+  <link href="https://fonts.googleapis.com/css?family=Noto+Serif" rel="stylesheet">
   <link rel="stylesheet" href="style.css" />
 </head>
 
@@ -18,37 +16,43 @@
     <div class="row text-center">
 
       <img src="../imagenes/logo.png" />
-      <p class="parrafo">Este codificador esta creado para ser manipulado por las Máximas Autoridades del País y el
-        Consejo de
-        Seguridad de Chile que esten a cargo de la defensa terreste, aérea y maritima del mismo, con la finalidad de
-        otorgar al Presidente de la República una herramienta que le permita poder comunicarse de una manera
-        confidencial con sus tropas a cargo.
-        Para una comunicación más segura y confidencial se crea este "Codificador" basado en el "Cifrdo Cesar". Debe
-        ingresar el texto y seleccione un número de confiabilidad para descifrar o cifrar el mensaje.
+      <p class="parrafo"><strong>Este codificador es un modelo del Cifrado Cesar y esta creado para ser manipulado por
+          las
+          máximas autoridades del País y el
+          Consejo de
+          Seguridad de Chile que esten a cargo de la defensa terreste, aérea y maritima del mismo, con el fin de poder
+          tener una comunicación completamente confidencial, en los temas de Seguridad Nacional.</strong>
+        <br /><i>
+          <h2>Instrucciones: Ingrese el mensaje en el recuadro grande y luego seleccione el número de
+            desplazamientos en el cual desea cifrar o decifrar. Recuerde que si desea Cifrar la letra "A" en posicion 3 la
+            tetra
+            resulatante sera la "D" y viceversa en caso de querer Decifrar.<br />Si usted no pertenece a la Seguridad
+            Nacional de Chile, no acceda a este portal.</h2>
+        </i>
+
       </p>
     </div>
     <hr />
 
     <form>
-      <textarea style="width:50%" id="mensaje" rows="3"></textarea>
+
+      <textarea name="text" id="mensaje" cols="30" rows="3" placeholder="Ingrese mensaje"></textarea>
       <br />
-      <input type="number" id="desplazamientos">
+      <input type="number" placeholder="Desplazamiento" id="desplazamientos">
       <br /><br />
 
       <input type="button" class="btn" value="CODIFICAR" id="codificar">
       <input type="button" class="btn" value="DECODIFICAR" id="decodificar">
     </form>
 
-  </div>
+    <div id="resultado">
+    </div>
 
-  <div id="resultado">
-  </div>
-
-  <footer>
-    <h3><i>Por la Seguridad de la Nación.<br /> Gobierno de Chile - 2018</i></h3>
-  </footer>
-  <script src="cipher.js"></script>
-  <script src="index.js"></script>
+    <footer>
+      <h3><i>Por la Seguridad de la Nación. - Gobierno de Chile - 2018</i></h3>
+    </footer>
+    <script src="cipher.js"></script>
+    <script src="index.js"></script>
 
 </body>
 
