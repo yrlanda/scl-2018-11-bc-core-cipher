@@ -43,7 +43,7 @@ window.cipher = {
       }
       if (ascii_letra_mensaje >= 48 && ascii_letra_mensaje <= 57) {
 
-        ascii_letra_mensaje = ((ascii_letra_mensaje - 57 - offset_num + 10) % 10) + 57;
+        ascii_letra_mensaje = ((ascii_letra_mensaje - 57 - offset_num) % 10) + 57;
       }
 
 
